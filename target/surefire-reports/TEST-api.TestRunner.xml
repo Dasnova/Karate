@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="api.TestRunner" time="1.011" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="api.TestRunner" time="1.758" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="cucumber.options" value="--tags @okwong"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:/Users/okwon/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="18"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dcucumber.options=--tags @okwong"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @okwong"/>
     <property name="java.home" value="C:\Users\okwon\Java\jdk-18.0.1.1"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,7 +60,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="[api/demo] Testing" name="[1:11] Testing valid GET endpoint for user 2" time="0.662"/>
-  <testcase classname="[api/demo] Testing" name="[2:20] Testing valid GET endpoint for user 3" time="0.147"/>
-  <testcase classname="[api/demo] Testing" name="[3:29] Post Request user" time="0.202"/>
+  <testcase classname="[api/demo] Testing" name="[1:11] Testing valid GET endpoint for user 2" time="1.15"/>
+  <testcase classname="[api/demo] Testing" name="[2:20] Testing valid GET endpoint for user 3" time="0.217"/>
+  <testcase classname="[api/demo] Testing" name="[3:29] Post Request user" time="0.391"/>
 </testsuite>
